@@ -20,13 +20,13 @@ python --version
 ### 2. Jalankan perintah berikut
 
 ```sh
-python dork_generator.py <nama_domain>
+python dork_helper.py <nama_domain>
 ```
 
 ### 3. Contoh perintah
 
 ```sh
-python dork_generator.py www.example.com
+python dork_helper.py www.example.com
 ```
 
 # Output
