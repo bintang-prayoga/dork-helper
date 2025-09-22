@@ -1,4 +1,5 @@
 import sys
+import datetime
 
 def generate_dorks(domain):
     
@@ -19,8 +20,8 @@ def generate_dorks(domain):
     return dorks
 
 def save_to_file(dorks, domain):
-    filename = f"dorks_{domain}.txt"
-    
+    timestamp = datetime.datetime.now().strftime("%d%m%Y")
+    filename = f"dorks_{domain}_{timestamp}.txt"
 
     try:
         with open(filename, 'w') as file:
