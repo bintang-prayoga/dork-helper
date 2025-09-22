@@ -1,0 +1,10 @@
+site:www.example.com filetype:pdf
+site:www.example.com filetype:xls OR filetype:xlsx
+site:www.example.com filetype:doc OR filetype:docx
+site:www.example.com inurl:login
+site:www.example.com inurl:admin
+site:www.example.com intitle:"index of"
+site:www.example.com intext:password
+site:www.example.com ext:sql OR ext:db OR ext:mdb
+site:www.example.com inurl:wp-admin
+site:www.example.com "-www"
