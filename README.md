@@ -34,3 +34,7 @@ python dork_generator.py www.example.com
 Skrip akan menghasilkan sebuah file bernama dorks\_<nama_domain>.txt (misal: dorks_example.com.txt) yang berisi daftar dork.
 
 ![Contoh output program](/assets/contoh_output.png)
+
+# License
+
+Distributed under the MIT License. See `LICENSE` for more information.
