@@ -1,10 +1,143 @@
-site:www.example.com filetype:pdf
-site:www.example.com filetype:xls OR filetype:xlsx
-site:www.example.com filetype:doc OR filetype:docx
-site:www.example.com inurl:login
-site:www.example.com inurl:admin
-site:www.example.com intitle:"index of"
-site:www.example.com intext:password
-site:www.example.com ext:sql OR ext:db OR ext:mdb
-site:www.example.com inurl:wp-admin
-site:www.example.com "-www"
+Google Dorks untuk domain: example.com
+Generated on: 2025-09-25 12:26:34
+Total dorks: 120
+============================================================
+
+[LOGIN] - 20 dorks
+----------------------------------------
+ 1. site:example.com inurl:login
+ 2. site:example.com inurl:admin
+ 3. site:example.com inurl:wp-admin
+ 4. site:example.com inurl:administrator
+ 5. site:example.com inurl:auth
+ 6. site:example.com inurl:signin
+ 7. site:example.com intext:"login" OR intext:"log in"
+ 8. site:example.com intitle:"Admin Login"
+ 9. site:example.com inurl:cp OR inurl:controlpanel
+10. site:example.com inurl:dashboard
+11. site:example.com intitle:"Login" | intitle:"Sign In"
+12. site:example.com inurl:/portal/
+13. site:example.com inurl:/account/
+14. site:example.com intext:"Forgot Password"
+15. site:example.com "Enter your username and password"
+16. site:example.com inurl:userlogin
+17. site:example.com inurl:memberlogin
+18. site:example.com inurl:remote
+19. site:example.com inurl:cas
+20. site:example.com inurl:/owa/
+
+[FILE] - 20 dorks
+----------------------------------------
+21. site:example.com filetype:pdf
+22. site:example.com filetype:xls OR filetype:xlsx
+23. site:example.com filetype:doc OR filetype:docx
+24. site:example.com filetype:ppt OR filetype:pptx
+25. site:example.com filetype:txt
+26. site:example.com filetype:csv
+27. site:example.com filetype:zip OR filetype:rar
+28. site:example.com filetype:xml
+29. site:example.com filetype:log
+30. site:example.com filetype:cfg OR filetype:conf
+31. site:example.com filetype:ini
+32. site:example.com filetype:pem OR filetype:key
+33. site:example.com filetype:json
+34. site:example.com filetype:yml OR filetype:yaml
+35. site:example.com filetype:sh
+36. site:example.com filetype:ps1
+37. site:example.com filetype:mdb
+38. site:example.com filetype:kdbx
+39. site:example.com filetype:rdp
+40. site:example.com filetype:csv intext:password
+
+[BACKUP] - 20 dorks
+----------------------------------------
+41. site:example.com ext:sql OR ext:db OR ext:mdb
+42. site:example.com ext:bak OR ext:backup
+43. site:example.com ext:old OR ext:orig
+44. site:example.com inurl:backup
+45. site:example.com intext:"sql dump"
+46. site:example.com filetype:sql
+47. site:example.com intext:"database backup"
+48. site:example.com ext:tar OR ext:gz
+49. site:example.com inurl:mysqldump
+50. site:example.com intext:"backup" filetype:zip
+51. site:example.com intext:"Index of" "database.sql"
+52. site:example.com inurl:dump OR inurl:dumps
+53. site:example.com filetype:7z "backup"
+54. site:example.com intext:"db_backup" OR intext:"database_backup"
+55. site:example.com "backup of example.com"
+56. site:example.com ext:dump
+57. site:example.com inurl:*.sql.gz
+58. site:example.com intext:"backup" filetype:tgz
+59. site:example.com filetype:bzip2 OR filetype:bz2
+60. site:example.com "cpanel_backup"
+
+[EMAIL] - 20 dorks
+----------------------------------------
+61. site:example.com "@example.com"
+62. site:example.com intext:"email" OR intext:"e-mail"
+63. site:example.com intext:"contact" "@example.com"
+64. site:example.com intext:"mailto:"
+65. site:example.com filetype:txt intext:"@example.com"
+66. site:example.com intext:"support@example.com"
+67. site:example.com intext:"admin@example.com"
+68. site:example.com intext:"info@example.com"
+69. site:example.com inurl:contact intext:"@"
+70. site:example.com "email list" OR "mailing list"
+71. site:example.com filetype:pdf intext:"@example.com"
+72. site:example.com filetype:xls intext:"@example.com"
+73. site:example.com intext:"*@example.com"
+74. site:example.com inurl:staff OR inurl:employees intext:"@"
+75. site:example.com "team" intext:"@example.com"
+76. site:example.com filetype:doc intext:"@example.com"
+77. site:example.com inurl:author intext:"@example.com"
+78. site:example.com "PGP public key" intext:"@example.com"
+79. site:example.com intext:"contact us" "@example.com"
+80. site:example.com inurl:people intext:"@example.com"
+
+[SENSITIVE] - 20 dorks
+----------------------------------------
+81. site:example.com intext:"password"
+82. site:example.com intext:"username" OR intext:"user name"
+83. site:example.com intext:"confidential"
+84. site:example.com intext:"secret"
+85. site:example.com intext:"private"
+86. site:example.com intext:"internal"
+87. site:example.com ext:env
+88. site:example.com inurl:config
+89. site:example.com intext:"api key" OR intext:"api_key"
+90. site:example.com intext:"access token" OR intext:"access_token"
+91. site:example.com intext:"aws_access_key_id"
+92. site:example.com intext:"aws_secret_access_key"
+93. site:example.com intext:"BEGIN RSA PRIVATE KEY"
+94. site:example.com filetype:yml "password:"
+95. site:example.com filetype:json "Authorization: Bearer"
+96. site:example.com inurl:id_rsa OR inurl:id_dsa
+97. site:example.com filetype:pem intext:"private key"
+98. site:example.com intext:"DB_PASSWORD" ext:env
+99. site:example.com intext:"client_secret"
+100. site:example.com filetype:log intext:"password"
+
+[DIRECTORIES] - 20 dorks
+----------------------------------------
+101. site:example.com intitle:"Index of"
+102. site:example.com intitle:"Directory listing"
+103. site:example.com inurl:"/.git"
+104. site:example.com inurl:"/admin/"
+105. site:example.com inurl:"/backup/"
+106. site:example.com inurl:"/uploads/"
+107. site:example.com inurl:"/files/"
+108. site:example.com inurl:"/temp/"
+109. site:example.com inurl:"/logs/"
+110. site:example.com inurl:"/test/"
+111. site:example.com intitle:"Index of /private"
+112. site:example.com intitle:"Index of /config"
+113. site:example.com inurl:/wp-content/uploads/
+114. site:example.com intitle:"Index of /backups"
+115. site:example.com intitle:"Index of /db"
+116. site:example.com intitle:"Index of" "Parent Directory"
+117. site:example.com inurl:/data/
+118. site:example.com inurl:/assets/
+119. site:example.com intitle:"Index of /secret"
+120. site:example.com inurl:/inc/ OR inurl:/includes/
+
