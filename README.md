@@ -20,8 +20,8 @@ $ python --version
 ### 2. Jalankan perintah berikut
 
 ```sh
-$ python dork_helper.py <nama_domain> [-h] [--categories {login,file,backup,email,sensitive,directories} [{login,file,backup,email,sensitive,directories} ...]] [--json] [--output OUTPUT]
-                      domain
+$ python dork_helper.py <nama_domain> [-h] [--categories {login,file,backup,email,sensitive,directories}
+[{login,file,backup,email,sensitive,directories} ...]] [--json] [--output OUTPUT] domain
 ```
 
 ### 3. Contoh perintah
